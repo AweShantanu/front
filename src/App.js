@@ -20,7 +20,7 @@ const App = () => {
         throw new Error('Input should contain a data array.');
       }
 
-      const res = await axios.post('https://your-backend-url/bfhl', parsedInput);
+      const res = await axios.post('https://bajfin-516rbiiof-shantanu-adityas-projects.vercel.app/bfhl', parsedInput);
       setResponse(res.data);
     } catch (err) {
       // Enhanced error handling
